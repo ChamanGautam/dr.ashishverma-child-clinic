@@ -9,7 +9,7 @@ const ViewAppointment = () => {
     const [isTodayView, setIsTodayView] = useState(false);
 
     const getAppointments = async () => {
-        let result = await fetch('http://127.0.0.1:5000/getappointment');
+        let result = await fetch('https://dr-ashishverma-child-clinic.onrender.com/getappointment');
         result = await result.json();
         setAppointments(result);
         if (!isTodayView) {
@@ -43,7 +43,7 @@ const ViewAppointment = () => {
     const searchAppointment = async (e) => {
         let key = e.target.value;
         if (key) {
-            let data = await fetch(`http://127.0.0.1:5000/searchappointment/${key}`);
+            let data = await fetch(`https://dr-ashishverma-child-clinic.onrender.com/searchappointment/${key}`);
             data = await data.json();
             setAppointments(data);
         } else {

@@ -12,7 +12,7 @@ const FeedbackSlider = () => {
 
   const fetchFeedbacks = async () => {
     try {
-      const response = await fetch('http://127.0.0.1:5000/allfeedbacks');
+      const response = await fetch('https://dr-ashishverma-child-clinic.onrender.com/allfeedbacks');
       if (!response.ok) {
         throw new Error('Network response was not ok');
       }

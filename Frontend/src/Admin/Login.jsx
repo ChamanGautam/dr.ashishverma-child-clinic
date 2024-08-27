@@ -10,7 +10,7 @@ const Login = () => {
     let [password, setPassword] = useState("");
 
     const userlogin = async () => {
-        let result = await fetch('http://127.0.0.1:5000/adminlogin', {
+        let result = await fetch('https://dr-ashishverma-child-clinic.onrender.com/adminlogin', {
             method: 'post',
             body: JSON.stringify({ username, password }),
             headers: {

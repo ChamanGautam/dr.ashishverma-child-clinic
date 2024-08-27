@@ -6,7 +6,7 @@ const AppointmentDetails = (id) => {
     let params=useParams();
     let [data, setData]=useState([]);
     let getAppointments =async () =>{
-        let result = await fetch(`http://localhost:5000/details/${params.id}`,);
+        let result = await fetch(`https://dr-ashishverma-child-clinic.onrender.com//details/${params.id}`,);
         result = await result.json();
         setData(result);
     }

@@ -8,7 +8,7 @@ function ViewFeedbacks() {
     const [error, setError] = useState(null);
     const fetchFeedbacks = async () => {
         try {
-          const response = await fetch('http://127.0.0.1:5000/allfeedbacks');
+          const response = await fetch('https://dr-ashishverma-child-clinic.onrender.com/allfeedbacks');
           if (!response.ok) {
             throw new Error('Network response was not ok');
           }
@@ -36,7 +36,7 @@ function ViewFeedbacks() {
     
       let deleteData = async (id) => {
         if (window.confirm("Are you sure ?")) {
-            let result = await fetch(`http://localhost:5000/deletedata/${id}`, {
+            let result = await fetch(`https://dr-ashishverma-child-clinic.onrender.com/deletedata/${id}`, {
                 method: 'delete'
             });
             result = await result.json();

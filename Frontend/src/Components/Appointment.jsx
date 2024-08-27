@@ -52,7 +52,7 @@ const Appointment = () => {
     event.preventDefault(); // Prevent default form submission
 
     try {
-      const result = await axios.post('http://localhost:5000/addAppointment', {
+      const result = await axios.post('https://dr-ashishverma-child-clinic.onrender.com/addAppointment', {
         pname,
         gender,
         pmname,
