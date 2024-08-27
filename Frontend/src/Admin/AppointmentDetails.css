@@ -1,0 +1,122 @@
+/* Student.css */
+
+/* Base styles */
+.appointment-base {
+    padding: 20px;
+  }
+  
+  .appointment-main {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .appointment-heading {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .appointment-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .appointment-table th, .appointment-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .appointment-table th {
+    background-color: #f4f4f4;
+    width: 30%;
+  }
+  
+  .appointment-table td {
+    width: 70%;
+  }
+  
+  .backbtn {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    margin-top: 20px;
+    font-size: 16px;
+  }
+  
+  .backbtn:hover {
+    background-color: #0056b3;
+    color: white;
+    
+  }
+  
+  .bi {
+    margin-right: 5px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .appointment-heading {
+      font-size: 20px;
+    }
+  
+    .appointment-table th, .appointment-table td {
+      padding: 10px;
+    }
+  
+    .backbtn {
+      padding: 8px 12px;
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .appointment-heading {
+      font-size: 18px;
+    }
+  
+    .appointment-table th, .appointment-table td {
+      padding: 8px;
+    }
+  
+    .appointment-table th {
+      width: 40%;
+    }
+  
+    .appointment-table td {
+      width: 60%;
+    }
+  
+    .backbtn {
+      padding: 6px 10px;
+      font-size: 12px;
+    }
+  }
+  
+  @media (max-width: 360px) {
+    .appointment-heading {
+      font-size: 16px;
+    }
+  
+    .appointment-table th, .appointment-table td {
+      padding: 6px;
+    }
+  
+    .appointment-table th {
+      width: 50%;
+    }
+  
+    .appointment-table td {
+      width: 50%;
+    }
+  
+    .backbtn {
+      padding: 4px 8px;
+      font-size: 10px;
+    }
+  }
+  

@@ -1,0 +1,68 @@
+.body_contact{
+    background-image: url('../assets/img/conbg.jpg');
+    background-size: 100% 100%;
+}
+
+.contact_main{
+    display: flex;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+.con_details{
+    width: 100%;
+    padding: 40px;
+    text-align: center;
+    font-size: 18px;
+}
+.con_details h1{
+    color: rgb(21, 0, 255);
+    
+}
+
+.con_details h3{
+    text-decoration: underline;
+    padding: 10px 0;
+}
+.call{
+    color: black;
+    font-size: 20px;
+}
+.whatsapp{
+    color: green;
+    font-size: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+.facebook{
+    color: rgb(0, 98, 255);
+    font-size: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+.instagram{
+    color: red;
+    font-size: 20px;
+    border-left: 2px solid black;
+    padding-left: 10px;
+}
+.con_icon{
+    width: 100%;
+}
+.con_icon img{
+    padding-top: 25%;
+    width: 70%;
+}
+@media (max-width:768px){
+    .body_contact{
+        background: #d6f9f5;
+    }
+    .contact_main{
+        flex-wrap: wrap;
+    }
+    .con_icon img{
+        display: none;
+    }
+    .con_details h1{
+        font-size: 30px;
+    }
+}

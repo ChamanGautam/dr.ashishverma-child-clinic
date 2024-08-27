@@ -1,0 +1,56 @@
+.aboutsec {
+    padding: 30px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+.about-heading{
+    color: rgb(0, 119, 255);
+    width: 30%;
+    margin: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 2px solid black;
+}
+.logo {
+    width: 100%;
+}
+
+.logo img {
+    width: 50%;
+}
+
+.dr {
+    width: 100%;
+    text-align: center;
+}
+
+.name {
+    font-family: 'Caveat', cursive;
+    color: rgb(255, 0, 0);
+}
+
+.dr p {
+    font-family: 'Caveat', cursive;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 15px;
+}
+
+.exhead {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.exlist li{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+@media (max-width:768px) {
+    .aboutsec {
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .about-heading{
+        padding-top: 5%;
+        width: 50%;
+        font-size: 2rem;
+    }
+}

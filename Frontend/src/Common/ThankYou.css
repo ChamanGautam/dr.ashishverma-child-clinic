@@ -1,0 +1,56 @@
+/* ThankYou.css */
+
+.thank-you-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.thank-you-message {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.thank-you-button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.thank-you-button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .thank-you-message {
+        font-size: 20px;
+    }
+
+    .thank-you-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .thank-you-message {
+        font-size: 18px;
+    }
+
+    .thank-you-button {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+}

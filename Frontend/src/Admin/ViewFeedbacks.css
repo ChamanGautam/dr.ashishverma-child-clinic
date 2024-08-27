@@ -1,0 +1,100 @@
+/* Basic styles for the feedback list container */
+.feedback-list-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .feed-h{
+    font-size: 1.5rem;
+    text-align: center;
+    border-bottom: 1px solid grey;
+    padding-bottom: 5px;
+    color: #2b23c8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .feedback-list-container > div {
+    text-align: center;
+    font-size: 18px;
+    color: #555;
+  }
+  
+  /* Styles for the feedback list */
+  .feedback-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .feedback-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+  }
+  
+  .feedback-text {
+    font-size: 16px;
+    color: #333;
+    flex: 1;
+    word-wrap: break-word; /* Ensure long text wraps */
+  }
+  
+  .delbtn {
+    background-color: #dc3545;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .delbtn i {
+    margin-right: 5px;
+  }
+  
+  .delbtn:hover {
+    background-color: #c82333;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .feedback-list-container {
+      padding: 10px;
+    }
+  
+    .feedback-text {
+      font-size: 14px;
+    }
+  
+    .delbtn {
+      font-size: 12px;
+      padding: 6px 10px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .feedback-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .feedback-text {
+      font-size: 12px;
+      margin-bottom: 10px;
+    }
+  
+    .delbtn {
+      font-size: 12px;
+      padding: 6px;
+    }
+  }
+  

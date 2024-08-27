@@ -1,0 +1,108 @@
+.footer {
+    background-color: rgb(60, 59, 59);
+    color: white;
+    margin: auto;
+}
+
+.icon {
+    display: flex;
+    gap: 5%;
+    justify-content: center;
+    padding: 25px 50px;
+    text-align: center;
+    font-size: 25px;
+}
+.icons1{
+    color: white;
+}
+.icons2{
+    color: rgb(39, 235, 0);
+}
+.icons3{
+    color: rgb(6, 110, 255);
+}
+.icons4{
+    color: rgb(249, 39, 109);
+}
+.icons:hover{
+    color: wheat;
+}
+.feedback{
+    padding-top: 2%;
+    display: flex;
+    justify-content: center;
+}
+.feedback_input{
+    width: 80%;
+    margin: 5px 30px;
+    padding: 10px 5px;
+    border-radius: 10px;
+}
+.feedback_submit{
+    padding: 10px 5px;
+    width: 10%;
+    margin: 5px 20px;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+}
+.contact_info{
+    display: grid;
+    grid-template-columns: 1fr 0fr 1fr;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px 20px;
+}
+.clinic1{
+    text-align: left;
+    font-size: 1rem;
+}
+.border{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid rgb(255, 255, 255);
+}
+.clinicadd{
+    display: inline-block;
+    padding: 10px 10px;
+}
+/* .clinicdiv0{}
+.clinicdiv1{} */
+.copyright {
+    background-color: black;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+@media (max-width:768px){
+    .icon {
+        padding: 1% 3%;
+        text-align: center;
+        font-size: 18px;
+        padding: 5%;
+        display: inline;
+    }
+    .clinic1 p{
+        font-size: 0.5rem;
+    }
+    .feedback{
+        padding: 5%;
+        flex-wrap: wrap;
+    }
+    .feedback_submit{
+        margin: auto;
+        width: 20%;
+        padding: 5px 5px;
+    }
+    .copyright{
+        font-size: small;
+    }
+}
+@media (max-width:995px){
+    .clinic1 p{
+        font-size: 0.4rem;
+    }
+    .copyright{
+        font-size: 0.3rem;
+    }
+}

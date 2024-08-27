@@ -1,0 +1,37 @@
+.feedback-slider-container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .feedback-slide {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .feedback-text {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .feedback-author {
+    font-size: 1em;
+    color: #777;
+  }
+  .feed-head{
+    border-bottom: 1px solid rgb(70, 230, 245);
+    text-align: center;
+    color: rgb(0, 136, 255);
+  }
+  @media (max-width: 768px) {
+    .feedback-text {
+      font-size: 1em;
+    }
+  
+    .feedback-author {
+      font-size: 0.9em;
+    }
+  }
+  
